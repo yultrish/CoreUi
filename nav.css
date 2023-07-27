@@ -283,6 +283,7 @@ img{
 
     .menu{
         display: block;
+        color: aliceblue;
     }
 
     .widgets{
@@ -290,6 +291,13 @@ img{
     }
 
     
+}
+
+.contents{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 @media screen and (min-width:989px) {
