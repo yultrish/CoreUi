@@ -58,6 +58,7 @@
     border-radius: 7px;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .input-icon input:focus{
@@ -315,5 +316,6 @@ img{
     left: 8rem;
     top: 0.5rem;
     color: #CCC;
+
 }
 }
