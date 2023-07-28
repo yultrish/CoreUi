@@ -655,7 +655,7 @@ span.three {
 
     .contents{
         grid-template-columns: 1fr;
-        overflow: hidden;
+        overflow: scroll;
     }
 
     .activity{
@@ -707,8 +707,8 @@ span.three {
 
 @media screen  and (min-width:601px) {
      .contents{
-        grid-template-columns: 1fr 1fr;
-        overflow: hidden;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: scroll;
     }
     .input-icon{
         display: none;
@@ -740,13 +740,21 @@ span.three {
     }
 
     .cards-container{
-        width: 60%;
-        margin-left: 100%;
+        height: 80vh;
+        
     }
 
+    .cards{
+        padding: unset;
+        margin-bottom: unset;
 
+    }
 
-    
+    .sidebar{
+        display: none;
+        /* background-color: #d73c6a; */
+    }
+  
 }
 
 @media screen and (min-width:989px) {
@@ -790,5 +798,9 @@ span.three {
     .contents{
         display: grid;
         grid-template-columns: 18% auto 20%;
+    }
+
+    .sidebar{
+        display: block;
     }
 }
