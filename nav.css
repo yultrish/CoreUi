@@ -792,7 +792,11 @@ span.three {
 
     .cards-container{
         width: unset;
-        margin-left: unset;
+    
+    }
+
+    .cards{
+        margin-bottom: 2rem;
     }
 
     .contents{
