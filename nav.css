@@ -640,6 +640,7 @@ span.three {
 
     .contents{
         grid-template-columns: 1fr;
+        overflow: hidden;
     }
 
     .activity{
@@ -662,16 +663,38 @@ span.three {
     
 }
 
+
 .text-muted{
     display: none;
 }
 
+.country img{
+    padding-right: 4rem;
+}
 
+.muted-country{
+    display: none;
+    margin-right: 2rem;
+}
+
+.muted-usage{
+    display: block;
+    padding-left: 4rem;
+}
+
+
+/* .progress-bar{
+    padding-right: 8rem;
+} */
 
     
 }
 
 @media screen  and (min-width:601px) {
+     .contents{
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+    }
     .input-icon{
         display: none;
     }
@@ -684,6 +707,29 @@ span.three {
     .widgets{
         display: block;
     }
+
+    .activity > div{
+        display: none;
+    }
+
+    .muted-activity{
+        display: none;
+    }
+
+    .second{
+        padding-left: 2rem;
+    }
+
+    .muted-usage{
+        padding-left: 4rem;
+    }
+
+    .cards-container{
+        width: 60%;
+        margin-left: 100%;
+    }
+
+
 
     
 }
@@ -703,6 +749,31 @@ span.three {
     left: 8rem;
     top: 0.5rem;
     color: #CCC;
-
 }
+
+  .activity > div{
+        display: none;
+    }
+
+    .muted-activity{
+        display: block;
+    }
+
+    .second{
+        padding-left: unset;
+    }
+
+    .muted-usage{
+        padding-left: unset;
+    }
+
+    .cards-container{
+        width: unset;
+        margin-left: unset;
+    }
+
+    .contents{
+        display: grid;
+        grid-template-columns: 18% auto 20%;
+    }
 }
