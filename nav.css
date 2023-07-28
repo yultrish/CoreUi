@@ -645,7 +645,7 @@ span.three {
 
     .activity{
         display: none;
-        background-color: #d73c6a;
+        /* background-color: #d73c6a; */
         display: none;
         visibility: hidden;
     }
