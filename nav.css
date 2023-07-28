@@ -275,19 +275,34 @@ a{
     font-size: 15px;
 }
 li{
+    display: flex;
+    justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 8px;
 }
+
+/* #b-arrow{
+    padding-left: 5rem;
+    background-color: #d73c6a;
+} */
 .tooltip{
-    padding-left: 20px;
+    padding-left: 1.1rem;
 }
 
 .bx{
     padding-left: 20px;
 }
 .bx-chevron-down{
-    /* margin-left: 80px; */
+    padding-left: 10rem;
     vertical-align: middle;
+    /* background-color: #d73c6a; */
+}
+
+#b-arrow{
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 2rem;
+    /* background-color: #d73c6a; */
 }
 
 .btn-new{
